@@ -1,3 +1,4 @@
+* Classify iso by OECD (38 members)
 gen oecd = 0
 
 replace oecd = 1 if cnt== "AUS" | if cnt== "AUT" | if cnt== "BEL" | if cnt== "CAN" | if cnt== "CHL" | if cnt== "COL" | if cnt== "CRI" | if cnt== "CZE" | if cnt== "DNK" | if cnt== ///
