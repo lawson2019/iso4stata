@@ -1,7 +1,7 @@
 * Classify iso by OECD (38 members)
 gen oecd = 0
 
-replace oecd = 1 if cnt== "AUS" | if cnt== "AUT" | if cnt== "BEL" | if cnt== "CAN" | if cnt== "CHL" | if cnt== "COL" | if cnt== "CRI" | if cnt== "CZE" | if cnt== "DNK" | if cnt== ///
-"EST" | if cnt== "FIN" | if cnt== "FRA" | if cnt== "DEU" | if cnt== "GRC" | if cnt== "HUN" | if cnt== "ISL" | if cnt== "IRL" | if cnt== "ISR" | if cnt== ///
-"ITA" | if cnt== "JPN" | if cnt== "KOR" | if cnt== "LVA" | if cnt== "LTU" | if cnt== "LUX" | if cnt== "MEX" | if cnt== "NLD" | if cnt== "NZL" | if cnt== ///
-"NOR" | if cnt== "POL" | if cnt== "PRT" | if cnt== "SVK" | if cnt== "SVN" | if cnt== "ESP" | if cnt== "SWE" | if cnt== "CHE" | if cnt== "TUR" | if cnt== "GBR" | if cnt== "USA"
+replace oecd = 1 if cnt == "AUS" | cnt == "AUT" | cnt == "BEL" | cnt == "CAN" | cnt == "CHL" | cnt == "COL" | cnt == "CRI" | cnt == "CZE" | cnt == "DNK" | cnt == "EST" | cnt == "FIN" | ///
+cnt == "FRA" | cnt == "DEU" | cnt == "GRC" | cnt == "HUN" | cnt == "ISL" | cnt == "IRL" | cnt == "ISR" | cnt == "ITA" | cnt == "JPN" | cnt == "KOR" | ///
+cnt == "LVA" | cnt == "LTU" | cnt == "LUX" | cnt == "MEX" | cnt == "NLD" | cnt == "NZL" | cnt == "NOR" | cnt == "POL" | cnt == "PRT" | cnt == "SVK" | ///
+cnt == "SVN" | cnt == "ESP" | cnt == "SWE" | cnt == "CHE" | cnt == "TUR" | cnt == "GBR" | cnt == "USA"
