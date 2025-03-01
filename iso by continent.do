@@ -1,5 +1,5 @@
 * =================================
-*  ISO by Continent
+*  ISO by geographical continent
 * =================================
 
 * Africa
