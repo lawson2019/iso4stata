@@ -1001,3 +1001,10 @@ replace income_category = "LM" if cnt == "ZWE" & inrange(year, 2018, 2023)
 
 // Label the variable
 label variable income_category "World Bank Income Classification (L=Low, LM=Lower Middle, UM=Upper Middle, H=High)"
+
+// Recode string categories to numeric values
+generate income_category_n = .
+replace income_category_n = 1 if income_category == "L"  // Low income
+replace income_category_n = 2 if income_category == "LM" // Lower middle income
+replace income_category_n = 3 if income_category == "UM" // Upper middle income
+replace income_category_n = 4 if income_category == "H"  // High income
