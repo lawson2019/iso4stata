@@ -1,4 +1,4 @@
-# iso2stata
+# iso4stata
 
 [![Stata](https://img.shields.io/badge/Stata%2B-blue.svg)](https://www.stata.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
