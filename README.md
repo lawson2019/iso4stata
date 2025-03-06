@@ -8,7 +8,8 @@ Standardized temples: Quickly add geographic group labels and macroeconomic seri
 **Core Scenarios**：Cross-country panel time series analysis | Regional disparity comparison studies | International organization member country screening
 
   
-> ❗ The term **"country" (cnt)**，used interchangeably with **"economy"** in this project,  does not imply political independence but refers to any territory for which authorities report separate social or economic statistics.
+> [!IMPORTANT]
+> The term **"country" (cnt)**，used interchangeably with **"economy"** in this project,  does not imply political independence but refers to any territory for which authorities report separate social or economic statistics.
 
 ---
 
